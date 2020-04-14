@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name="description" content="affordable and professional web design">
-     <meta name="keywords" content="web design, affordable web design,professional">
-     <meta name= "author" content="Arize Onubiyi">
+    <meta name="description" content="affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design,professional">
+    <meta name="author" content="Arize Onubiyi">
     <title>Afristud web Design | Services</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 
 <body>
-   <header>
-       <div class="container">
-        <div id="branding">
-            <h1><span class="highlight">Afristud</span> Web Design</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li class="current"><a href="Services.html">Services</a></li>
-                </ul>
-            </nav>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Afristud</span> Web Design</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li class="current"><a href="Services.html">Services</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-       </div>
-   </header> 
+    </header>
 
     <section id="Newsletter">
         <div class="container">
@@ -39,53 +40,63 @@
 
     <section id="main">
         <div class="container">
-           <article id="main-col">
-             <h1 class="page-title">SERVICES</h1>
-             <!-- i want to apply dark class to the first paragraph but i cant figure it out  -->
-               <ul>
-                   <li>
-                       <h3>Website Design</h3>
-                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt laudantium id temporibus quisquam recusandae, saepe debitis asperiores illo? Soluta, ratione id voluptate delectus officiis quidem aspernatur ex voluptatem magni?</p>
-                       <p>pricing: &200-&250</p>
-                   </li>
-                   <li>
-                    <h3>Website maitainance</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt laudantium id temporibus quisquam recusandae, saepe debitis asperiores illo? Soluta, ratione id voluptate delectus officiis quidem aspernatur ex voluptatem magni?</p>
-                    <p>pricing: &250-&350 per month</p>
-                </li>
-                <li>
-                    <h3>Study abroad consultation</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt laudantium id temporibus quisquam recusandae, saepe debitis asperiores illo? Soluta, ratione id voluptate delectus officiis quidem aspernatur ex voluptatem magni?</p>
-                    <p>pricing: &10-&15</p>
-                </li>
-               </ul>
-           </article>
-           <aside id="sidebar">
-             <div class="dark">
-               <h3>Get A Qoute</h3>
-               <form class="Qoute">
-                   <div>
-                       <label>Name</label><br>
-                       <input type="text" placeholder="Name">
-                   </div>
-                   <div>
-                       <label>Email</label><br>
-                       <input type="email" placeholder="Email Adobe">
-                   </div>
-                   <div>
-                       <label>Message</label><br>
-                       <textarea placeholder="Message" id="" cols="30" rows="10"></textarea>
-                   </div>
-                   <button class="button_1" type="onclick submit">send</button>
-               </form>
-                </div>           
-           </aside>
+            <article id="main-col">
+                <h1 class="page-title">SERVICES</h1>
+                <!-- i want to apply dark class to the first paragraph but i cant figure it out  -->
+                <ul>
+                    <li>
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt laudantium id
+                            temporibus quisquam recusandae, saepe debitis asperiores illo? Soluta, ratione id voluptate
+                            delectus officiis quidem aspernatur ex voluptatem magni?</p>
+                        <p>pricing: &200-&250</p>
+                    </li>
+                    <li>
+                        <h3>Website maitainance</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt laudantium id
+                            temporibus quisquam recusandae, saepe debitis asperiores illo? Soluta, ratione id voluptate
+                            delectus officiis quidem aspernatur ex voluptatem magni?</p>
+                        <p>pricing: &250-&350 per month</p>
+                    </li>
+                    <li>
+                        <h3>Study abroad consultation</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt laudantium id
+                            temporibus quisquam recusandae, saepe debitis asperiores illo? Soluta, ratione id voluptate
+                            delectus officiis quidem aspernatur ex voluptatem magni?</p>
+                        <p>pricing: &10-&15</p>
+                    </li>
+                </ul>
+            </article>
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3>Get A Qoute</h3>
+                    <form class="Qoute" id="mainForm">
+                        <div>
+                            <label>Name</label><br>
+                            <input type="text" id="name" name="name" placeholder="Name">
+                        </div>
+                        <div>
+                            <label>Email</label><br>
+                            <input type="email" id="email" name="email" placeholder="Email...">
+                        </div>
+                        <div>
+                            <label>Message</label><br>
+                            <textarea placeholder="Message" id="message" name="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <button class="button_1" type="onclick submit">send</button>
+                    </form>
+                </div>
+            </aside>
         </div>
     </section>
     <footer>
         <p>Afristud web Design, Copyright &copy; 2020</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="./handleForm.js"></script>
 </body>
+
 </html>
 
 boxe
