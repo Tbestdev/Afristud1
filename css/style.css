@@ -75,10 +75,10 @@ header a:hover{
 }
 /* showcase */
 #showcase{
-    min-height: 400px;
+    min-height: 90px;
     background-image:url('../images/books.jpg');
     text-align: center;
-    color: #ffffff;
+    color: #a78a8a;
 }
 #showcase{
     margin-top: 100px;
